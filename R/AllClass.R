@@ -10,6 +10,6 @@
 
 setClass("Card",
    representation(
-       suit = "character", number = "integer", trump = "logical")
+       suit = "character", number = "numeric", trump = "logical")
 )
 
