@@ -1,0 +1,12 @@
+Package: cards
+Version: 0.99.0
+Author: Alyssa Frazee
+Maintainer: Alyssa Frazee <alyssa.frazee@gmail.com>
+License: MIT + file LICENSE
+Title: playing cards in R!
+VignetteBuilder: knitr
+Suggests:
+    knitr
+Description: learning about S4 for fun (and legal profit!) using cards as an
+    example
+URL: https://github.com/alyssafrazee/cards
