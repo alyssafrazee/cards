@@ -2,4 +2,7 @@
 
 export(Card)
 export(find_pair)
+export(plot)
 exportClasses(Card)
+exportMethods(plot)
+importFrom(graphics,plot)
