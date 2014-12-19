@@ -26,3 +26,10 @@ setMethod("plot", "Card", function(x){
     
     text(0, 0, paste(s, 'of', x@suit), cex=2)
 })
+
+#' @name cardplot
+#' @export
+#' @docType methods
+#' @rdname cardplot
+#' @importFrom graphics plot
+setGeneric("plot", function(x,y,...) standardGeneric("plot"))
